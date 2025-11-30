@@ -10,7 +10,7 @@ The algorithm automates the decision-making process by combining **Higher Timefr
 Unlike traditional technical analysis, this model relies on math and probability:
 
 1.  **Risk Management (Regime Filter):** * Calculates a dynamic **200-period EMA** trend filter on the 4H timeframe.
-    * **Logic:** If the market structure is Bearish, trading is disabled. This acts as a "Falling Knife Protection" mechanism.
+    * **Logic:** If the market structure is Bearish, trading is disabled. This acts as a protection mechanism.
 
 2.  **Opportunity Detection (Z-Score):** * Calculates the relative spread ratio between QQQ and SPY.
     * Normalizes the spread using a **Rolling Z-Score (Window=40)**.
